@@ -40,7 +40,6 @@ int main(int argc, char *argv[]) {
         DieWithSystemMessage("inet_pton() failed");
     servAddr.sin_port = htons(servPort);     // Server port
 
-
     // Establish the connection to the echo server
     if (connect(sock, (struct sockaddr *) &servAddr, sizeof(servAddr)) < 0)
         DieWithSystemMessage("connect() failed");
@@ -56,7 +55,6 @@ int main(int argc, char *argv[]) {
         DieWithSystemMessage("recv() failed");
     
     fputc('\n', stdout);            // Print a final linefeed
-
     close(sock);
     exit(0);
 }
