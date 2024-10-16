@@ -53,7 +53,7 @@ int main(int argc, char *argv[]) {
     if (numBytesSent < 0)
       DieWithSystemMessage("send() failed");
 
-	close(clntSock); // Close client socket
+    close(clntSock); // Close client socket
 
   }  //end infinite for loop 
   // NOT REACHED
