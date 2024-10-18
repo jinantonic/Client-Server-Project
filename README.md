@@ -1,10 +1,12 @@
 # Date and Time Client-Server-Project
 This project implements a simple server-client system where the client requests the current date and time from the server, and the server responds with the information.
-<br>
+
+
 ## Features
 - **Server**: Listens for incoming client connections and sends the current date and time to each client that connects.
 - **Client**: Connects to the server and prints the received date and time to the console.
-<br>
+
+
 ## How It Works
 ### Server
 - The server runs on a specified port, waits for a client connection, and sends the current date and time when a client connects.
@@ -13,7 +15,8 @@ This project implements a simple server-client system where the client requests 
 ### Client
 - The client connects to the server using the server's IP address and port number.
 - Receives the current date and time from the server and prints it.
-<br>
+
+
 ## Files
 - `server.c`: Contains the server code that listens for client connections and sends the date and time.
 - `client.c`: Contains the client code that connects to the server and receives the date and time.
