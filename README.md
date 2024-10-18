@@ -36,9 +36,11 @@ To compile the server and client, use the following commands:
 ### Running the Application
 1. **Run the server**:
    On the server machine or terminal, run the server program, specifying the port on which it should listen for connections:
+   ```bash
    ./server 8080
-2. **Run the client**:
+3. **Run the client**:
    On the client machine or terminal, connect to the server using its IP address and the same port:
+   ```bash
    ./client <Server IP> 8080
 
 ### Example Output
