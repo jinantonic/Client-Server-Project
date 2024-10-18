@@ -6,11 +6,11 @@ This project implements a simple server-client system where the client requests 
 - **Client**: Connects to the server and prints the received date and time to the console.
 
 ## How It Works
-#### Server
+### Server
 - The server runs on a specified port, waits for a client connection, and sends the current date and time when a client connects.
 - Continues running, ready to accept new clients.
 
-#### Client
+### Client
 - The client connects to the server using the server's IP address and port number.
 - Receives the current date and time from the server and prints it.
 
