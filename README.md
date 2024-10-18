@@ -6,11 +6,11 @@ This project implements a simple server-client system where the client requests 
 - **Client**: Connects to the server and prints the received date and time to the console.
 
 ## How It Works
-### Server
+#### Server
 - The server runs on a specified port, waits for a client connection, and sends the current date and time when a client connects.
 - Continues running, ready to accept new clients.
 
-### Client
+#### Client
 - The client connects to the server using the server's IP address and port number.
 - Receives the current date and time from the server and prints it.
 
@@ -20,11 +20,11 @@ This project implements a simple server-client system where the client requests 
 - `Practical.h`: A header file with utility functions for handling errors.
 
 ## How to Compile and Run
-### Prerequisites
+#### Prerequisites
 - A Linux system with GCC installed or any system that supports `socket.h` and TCP/IP networking.
 - Basic knowledge of C programming.
 
-### Compilation
+#### Compilation
 To compile the server and client, use the following commands
 1. **Compile the server**:
    ```bash
@@ -33,7 +33,7 @@ To compile the server and client, use the following commands
    ```bash
    gcc -o client client.c Practical.c
 
-### Running the Application
+#### Running the Application
 1. **Run the server**:
    On the server machine or terminal, run the server program, specifying the port on which it should listen for connections
    ```bash
@@ -43,7 +43,7 @@ To compile the server and client, use the following commands
    ```bash
    ./client <Server IP> 8080
 
-### Example Output
+#### Example Output
 **Server**
 ```bash
 Server started and listening on port 8080...
