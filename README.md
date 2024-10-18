@@ -48,7 +48,7 @@ To compile the server and client, use the following commands:
 ```bash
 Server started and listening on port 8080...
 Client connected. Sending date and time: Wed Oct 16 14:30:00 2024
-
+```bash
 **Client**
 ```bash
 Received from server: Wed Oct 16 14:30:00 2024
