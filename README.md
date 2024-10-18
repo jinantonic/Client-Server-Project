@@ -25,7 +25,7 @@ This project implements a simple server-client system where the client requests 
 - Basic knowledge of C programming.
 
 ### Compilation
-To compile the server and client, use the following commands:
+To compile the server and client, use the following commands
 1. **Compile the server**:
    ```bash
    gcc -o server server.c Practical.c
@@ -38,7 +38,7 @@ To compile the server and client, use the following commands:
    On the server machine or terminal, run the server program, specifying the port on which it should listen for connections
    ```bash
    ./server 8080
-3. **Run the client**:
+2. **Run the client**:
    On the client machine or terminal, connect to the server using its IP address and the same port
    ```bash
    ./client <Server IP> 8080
@@ -48,7 +48,7 @@ To compile the server and client, use the following commands:
 ```bash
 Server started and listening on port 8080...
 Client connected. Sending date and time: Wed Oct 16 14:30:00 2024
-```bash
+
 **Client**
 ```bash
 Received from server: Wed Oct 16 14:30:00 2024
